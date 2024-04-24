@@ -1,5 +1,5 @@
 # Coding-Assignment
-Solve the given problems, write a report, and submit it in 3 pages or less. 
+These problems are written to give you a better understanding of soft and hard margins, kernel tricks, and optimization methods. Solve the given problems, write a report, and submit it in 3 pages or less. 
 ## Problem 1
 You need to find a decision boundary that perfectly classifies the given data.  
 
