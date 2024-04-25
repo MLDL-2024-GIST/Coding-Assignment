@@ -20,7 +20,7 @@ Re-visualize the decision boundary. This visualization should now reflect a stri
 ### (1) Data Preparation and Visualization
 Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of which kernel function to use.
 
-'''python
+```python
 import sklearn
 
 dataset = sklearn.datasets.make_moons(n_samples = 300, noise = 0.3, random_state = 20)
