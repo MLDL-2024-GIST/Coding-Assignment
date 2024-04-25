@@ -46,7 +46,7 @@ Visualize the selected data in a scatter plot to understand the initial distribu
 ```python
 import sklearn
 
-dataset = sklearn.datasets.make_moons(n_samples = 300, noise = 0.3, random_state = 20) # you can change noise and random_state
+dataset = sklearn.datasets.make_moons(n_samples = 300, noise = 0.3, random_state = 20) # you can change noise and random_state but noise >= 0.15
 X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size = 0.3, random_state = 100)
 ```
 
