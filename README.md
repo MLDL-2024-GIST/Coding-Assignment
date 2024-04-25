@@ -1,5 +1,23 @@
 # Coding-Assignment
+
+## Introduction
+
 This assignment focuses on understanding and applying the concepts of soft and hard margins, kernel tricks, and optimization methods in Support Vector Machines (SVM). By solving the given problems and compiling a report, you will demonstrate your grasp of these important machine learning techniques.  
+
+## Deadline
+May 12, 2024 11:59PM KST (One day delay is permitted with linear scale score deduction. (20% per day))
+
+### Submission checklist
+* Push your code to Git
+* Submit your report to LMS
+
+## Files
+Files you will edit:
+* <div style="background-color: #f0f0f0; padding: 10px;"> SVM_hard.py </div>
+* SVM_soft.py
+* SVM_kernel.py
+* utils.py
+* test.py
 
 ## Problem 1
 The objective is to employ Support Vector Machines (SVM) to find and visualize a decision boundary that perfectly classifies parts of the Iris dataset. This problem is not only about applying SVM but also understanding how its parameters affect the model's performance, especially under scenarios requiring perfect separation.
