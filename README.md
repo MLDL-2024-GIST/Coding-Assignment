@@ -13,11 +13,11 @@ May 12, 2024 11:59PM KST (One day delay is permitted with linear scale score ded
 
 ## Files
 Files you will edit:
-* <div style="background-color: #f0f0f0; padding: 10px;"> SVM_hard.py </div>
-* SVM_soft.py
-* SVM_kernel.py
-* utils.py
-* test.py
+* `SVM_hard.py` : You need to modify this file to implement SVM with hard margin
+* `SVM_soft.py` : You need to modify this file to implement SVM with soft margin
+* `kernel.py` : You need to modify this file to implement kernels which will be used to soft margin
+* `utils.py` : A bunch of utility functions!
+* `test.py` : A testing code! I will run this code to run your models.
 
 ## Problem 1
 The objective is to employ Support Vector Machines (SVM) to find and visualize a decision boundary that perfectly classifies parts of the Iris dataset. This problem is not only about applying SVM but also understanding how its parameters affect the model's performance, especially under scenarios requiring perfect separation.
