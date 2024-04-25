@@ -19,6 +19,12 @@ Re-visualize the decision boundary. This visualization should now reflect a stri
 ## Problem 3
 ### (1) Data Preparation and Visualization
 Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of which kernel function to use.
+
+'''python
+import sklearn
+
+dataset = sklearn.datasets.make_moons(n_samples = 300, noise = 0.3, random_state = 20)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 100)
 <p>
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/1562d39f-c48d-47c5-8407-b53e0714f9f5" width="400" height="300">
 </p>
