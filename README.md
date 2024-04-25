@@ -24,7 +24,7 @@ Visualize the selected data in a scatter plot to understand the initial distribu
 import sklearn
 
 dataset = sklearn.datasets.make_moons(n_samples = 300, noise = 0.3, random_state = 20)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 100)
+X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size = 0.3, random_state = 100)
 ```
 
 <p>
