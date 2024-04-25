@@ -19,7 +19,9 @@ Re-visualize the decision boundary. This visualization should now reflect a stri
 ## Problem 3
 ### (1) Data Preparation and Visualization
 Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of which kernel function to use.
-(https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/1562d39f-c48d-47c5-8407-b53e0714f9f5)
+<p>
+  <img src = https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/1562d39f-c48d-47c5-8407-b53e0714f9f5 >
+</p>
 
 ### (2) Implementing Various Kernel Filters and Comparing Each Other
 Apply various kernel filters to SVM and compare their performance.
