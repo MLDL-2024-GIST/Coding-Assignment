@@ -20,7 +20,7 @@ Re-visualize the decision boundary. This visualization should now reflect a stri
 ### (1) Data Preparation and Visualization
 Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of which kernel function to use.
 <p>
-  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/1562d39f-c48d-47c5-8407-b53e0714f9f5" width="300" height="200">
+  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/1562d39f-c48d-47c5-8407-b53e0714f9f5" width="400" height="300">
 </p>
 
 ### (2) Implementing Various Kernel Filters and Comparing Each Other
@@ -29,7 +29,7 @@ Apply various kernel filters to SVM and compare their performance.
 ### (3) Visualization the Decision Boundary and Support Vectors
 Visualize the decision boundaries and support vectors of SVM with different kernel filters. The report should indicate which kernel used in the SVM performed best, including reasons based on visualized data.
 <p>
-  <img src = https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/a9eb4119-35a3-4407-8170-c739b072f48b >
+  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/a9eb4119-35a3-4407-8170-c739b072f48b" width="400" height="300" >
 </p>
 
 ## Extra
