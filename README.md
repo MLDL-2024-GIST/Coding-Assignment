@@ -3,10 +3,10 @@ This assignment focuses on understanding and applying the concepts of soft and h
 ## Problem 1
 The objective is to employ Support Vector Machines (SVM) to find and visualize a decision boundary that perfectly classifies parts of the Iris dataset. This problem is not only about applying SVM but also understanding how its parameters affect the model's performance, especially under scenarios requiring perfect separation.
 
-(1) Data Preparation and Visualization:
+(1) Data Preparation and Visualization  
 Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of perfect separation with a linear boundary.   
     
-(2) Implementing Hard Margin SVM:  
+(2) Implementing Hard Margin SVM
 Adjust the SVM settings to enforce a hard margin (e.g., set the C parameter to a very high value). This configuration assumes that the data is linearly separable and aims to classify all training samples correctly without any misclassifications.  
 Re-visualize the decision boundary. This visualization should now reflect a stricter separation where the margin is minimized to perfectly classify all training points.
 
