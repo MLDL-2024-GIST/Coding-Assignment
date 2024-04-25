@@ -40,7 +40,7 @@ Re-visualize the decision boundary. This visualization should now reflect a stri
 ## Problem 2 (40%)
 
 ## Problem 3 (30%)
-`REPORT3`: You must include all the following problems in the report to receive a full grade
+`REPORT3`: You will implement kernel filters for soft margin SVM. You must include all the following problems in the report to receive a full grade
 ### (1) Data Preparation and Visualization
 Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of which kernel function to use.
 
