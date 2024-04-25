@@ -56,12 +56,6 @@ X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
 
 ### (2) Implementing Various Kernel Filters and Comparing Each Other
 Apply various kernel filters to SVM and compare their performance.
-```python
-from SVM_kernel import SVM_soft
-
-svm = SVM_kernel(kernel=kernel, C=C)
-svm(X=X, y=y)
-``` 
 
 ### (3) Visualization the Decision Boundary and Support Vectors
 Visualize the decision boundaries and support vectors of SVM with different kernel filters. The report should indicate which kernel used in the SVM performed best, including reasons based on visualized data.
