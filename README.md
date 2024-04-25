@@ -40,8 +40,9 @@ Re-visualize the decision boundary. This visualization should now reflect a stri
 ## Problem 2 (40%)
 
 ## Problem 3 (30%)
-Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on Make Moon dataset.
-Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of which kernel function to use.
+Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
+Visualize the selected data in a scatter plot to understand the initial distribution. 
+`REPORT3`: You must include all the following problems in the report to receive a full grade
 
 ```python
 import sklearn
@@ -54,7 +55,6 @@ X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/1562d39f-c48d-47c5-8407-b53e0714f9f5" width="400" height="300">
 </p>
 
-`REPORT3`: You must include all the following problems in the report to receive a full grade
 ### (1) Implementing Various Kernel Filters and Comparing Each Other
 Apply various kernel filters to SVM and compare their performance.
 
