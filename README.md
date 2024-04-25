@@ -13,11 +13,16 @@ May 12, 2024 11:59PM KST (One day delay is permitted with linear scale score ded
 
 ## Files
 Files you will edit:
-* `SVM_hard.py` : You need to modify this file to implement SVM with hard margin
-* `SVM_soft.py` : You need to modify this file to implement SVM with soft margin
-* `kernel.py` : You need to modify this file to implement kernels which will be used to soft margin
+* `SVM_hard.py` : You need to modify this file to implement SVM with hard margin.
+* `SVM_soft.py` : You need to modify this file to implement SVM with soft margin.
+* `kernel.py` : You need to modify this file to implement kernels which will be used to soft margin.
 * `utils.py` : A bunch of utility functions!
 * `test.py` : A testing code! I will run this code to run your models.
+
+## What to submit
+
+### Note
+**Academic dishonesty:** We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else's code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don't try. We trust you all to submit your own work only; please don't let us down. If you do, we will pursue the strongest consequences available to us.
 
 ## Problem 1
 The objective is to employ Support Vector Machines (SVM) to find and visualize a decision boundary that perfectly classifies parts of the Iris dataset. This problem is not only about applying SVM but also understanding how its parameters affect the model's performance, especially under scenarios requiring perfect separation.
