@@ -42,6 +42,7 @@ Re-visualize the decision boundary. This visualization should now reflect a stri
 ## Problem 3 (30%)
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
 Visualize the selected data in a scatter plot to understand the initial distribution. 
+
 `REPORT3`: You must include all the following problems in the report to receive a full grade
 
 ```python
