@@ -24,7 +24,7 @@ Files you will edit:
 ### Note
 **Academic dishonesty:** We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else's code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don't try. We trust you all to submit your own work only; please don't let us down. If you do, we will pursue the strongest consequences available to us.
 
-## Hard margin SVM (30%)
+## Hard margin SVM (20%)
 ### Load Dataset
 Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
 
@@ -44,6 +44,10 @@ y = iris.target[:100]
 
 
 ## Soft margin SVM (40%)
+### Load Dataset
+
+### Implement and Visualize 
+`REPORT2`: 
 
 ## Kernel Tricks (30%)
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
@@ -69,12 +73,10 @@ X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/a9eb4119-35a3-4407-8170-c739b072f48b" width="400" height="300" >
 </p>
 
-## Compare your implementation with `sklearn` library
-`REPORT4`: 
-## Extra
-You can earn extra credit (3 points) for solving this question. 
+## Discussion (10%)
+`REPORT4`: Compare your implementation with `sklearn` library with same hyper-parameters.
 
-## 
+## Extra Credit (30%)
+You can earn extra credit for solving this question. 
 
-(1)   
-(2)
+### Optimize Quadratic Problem(QP) other than Gradient Descent Algorithm without using any library
