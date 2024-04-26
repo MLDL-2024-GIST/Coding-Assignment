@@ -15,7 +15,7 @@ May 12, 2024 11:59PM KST (One day delay is permitted with linear scale score ded
 Files you will edit:
 * `SVM_hard.py` : You need to modify this file to implement SVM with hard margin.
 * `SVM_soft.py` : You need to modify this file to implement SVM with soft margin.
-* `kernel.py` : You need to modify this file to implement kernels which will be used to soft margin.
+* `SVM_kernel.py` : You need to modify this file to implement kernels which will be used to soft margin.
 * `utils.py` : A bunch of utility functions!
 * `test.py` : A testing code! I will run this code to run your models.
 
@@ -86,6 +86,17 @@ X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
 
 ### Implement and Visualize
 `REPORT3`: Apply various kernel filters to SVM and compare their performance. Also, you have to visualize the decision boundaries and support vectors of SVM with different kernel filters. The report should indicate which kernel used in the SVM performed best, including reasons based on visualized data.
+
+You can implement the soft margin SVM to predict the class with the input data.
+```
+>>> from SVM_kernel import *
+>>> model = KSVM()
+>>> model.fit(tr_x, tr_y, kernel=kernel)
+>>> y_pred = model.predict(val_x)
+>>> acc = computeClassificationAcc(val_y, y_pred) 
+>>> print(acc)
+0.94 # for example
+```
 
 <p>
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/a9eb4119-35a3-4407-8170-c739b072f48b" width="400" height="300" >
