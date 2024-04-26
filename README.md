@@ -24,8 +24,9 @@ Files you will edit:
 ### Note
 **Academic dishonesty:** We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else's code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don't try. We trust you all to submit your own work only; please don't let us down. If you do, we will pursue the strongest consequences available to us.
 
-## Problem 1 (30%)
-The objective is to employ Support Vector Machines (SVM) to find and visualize a decision boundary that perfectly classifies parts of the Iris dataset. This problem is not only about applying SVM but also understanding how its parameters affect the model's performance, especially under scenarios requiring perfect separation. Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data)
+## Hard margin SVM (30%)
+### Load Dataset
+Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
 
 ```python
 from sklearn import datasets
@@ -38,19 +39,13 @@ y = iris.target[:100]
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/026a92cf-81f6-4641-a54d-d11601ca73bf" width="400" height="300">
 </p>
 
-### (1) Data Preparation and Visualization  
-Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of perfect separation with a linear boundary.   
+### Implement and Visualize 
+`REPORT1`: Select an SVM from the visualized graph and use it to draw a decision boundary that perfectly separates the two datasets. The report should include a reasoned explanation of how the decision boundary was drawn based on the SVM.  
 
-### (2) Visualizing the decision boundary  
-Select an SVM from the visualized graph and use it to draw a decision boundary that perfectly separates the two datasets. The report should include a reasoned explanation of how the decision boundary was drawn based on the SVM.   
 
-### (3) Implementing Hard Margin SVM  
-Adjust the SVM settings to enforce a hard margin (e.g., set the C parameter to a very high value). This configuration assumes that the data is linearly separable and aims to classify all training samples correctly without any misclassifications.  
-Re-visualize the decision boundary. This visualization should now reflect a stricter separation where the margin is minimized to perfectly classify all training points.
+## Soft margin SVM (40%)
 
-## Problem 2 (40%)
-
-## Problem 3 (30%)
+## Kernel Tricks (30%)
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
 Visualize the decision boundaries and support vectors of each kernel filters.
 
