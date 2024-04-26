@@ -58,10 +58,10 @@ y = iris.target[50:]
 You can implement the soft margin SVM to predict the class with the input data.
 ```
 >>> from SVM_soft import *
->>> model = SVM_soft(C=1.0) # set threshold value or 
->>> mode.fit(tr_x, tr_y)
->>> y_hat = model.predict(val_x)
->>> acc = computeClassificationAcc(val_y, y_hat) 
+>>> model = SSVM(C=1.0)
+>>> model.fit(tr_x, tr_y)
+>>> y_pred = model.predict(val_x)
+>>> acc = computeClassificationAcc(val_y, y_pred) 
 >>> print(acc)
 0.96 # for example
 ```
