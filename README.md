@@ -42,7 +42,16 @@ y = iris.target[:100]
 </p>
 
 ### Implement and Visualize 
-
+You can implement the soft margin SVM to predict the class with the input data.
+```
+>>> from SVM_hard import *
+>>> model = HSVM()
+>>> model.fit(tr_x, tr_y)
+>>> y_pred = model.predict(val_x)
+>>> acc = computeClassificationAcc(val_y, y_pred) 
+>>> print(acc)
+1.00 # for example
+```
 
 ## Soft margin SVM (40%)
 ### Load Dataset
