@@ -17,7 +17,7 @@ Files you will edit:
 * `SVM_soft.py` : You need to modify this file to implement SVM with soft margin.
 * `SVM_kernel.py` : You need to modify this file to implement kernels which will be used to soft margin.
 * `utils.py` : A bunch of utility functions!
-* `test.py` : A testing code! I will run this code to run your models.
+* `test.py` : A testing code! I will run this code to run your models. 
 
 ## What to submit
 
