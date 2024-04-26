@@ -34,6 +34,9 @@ iris = datasets.load_iris()
 X = iris.data[:100, :2]
 y = iris.target[:100] 
 ```
+<p>
+  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/026a92cf-81f6-4641-a54d-d11601ca73bf" width="400" height="300">
+</p>
 
 ### (1) Data Preparation and Visualization  
 Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of perfect separation with a linear boundary.   
