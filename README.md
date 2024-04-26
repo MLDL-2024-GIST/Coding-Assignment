@@ -25,7 +25,7 @@ Files you will edit:
 **Academic dishonesty:** We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else's code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don't try. We trust you all to submit your own work only; please don't let us down. If you do, we will pursue the strongest consequences available to us.
 
 ## Problem 1 (30%)
-The objective is to employ Support Vector Machines (SVM) to find and visualize a decision boundary that perfectly classifies parts of the Iris dataset. This problem is not only about applying SVM but also understanding how its parameters affect the model's performance, especially under scenarios requiring perfect separation.
+The objective is to employ Support Vector Machines (SVM) to find and visualize a decision boundary that perfectly classifies parts of the Iris dataset. This problem is not only about applying SVM but also understanding how its parameters affect the model's performance, especially under scenarios requiring perfect separation. Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data)
 
 ```python
 from sklearn import datasets
