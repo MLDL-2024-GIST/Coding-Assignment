@@ -28,6 +28,8 @@ Files you will edit:
 ### Load Dataset
 Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
 
+`REPORT1`: Select an SVM from the visualized graph and use it to draw a decision boundary that perfectly separates the two datasets. The report should include a reasoned explanation of how the decision boundary was drawn based on the SVM.  
+
 ```python
 from sklearn import datasets
 
@@ -40,12 +42,14 @@ y = iris.target[:100]
 </p>
 
 ### Implement and Visualize 
-`REPORT1`: Select an SVM from the visualized graph and use it to draw a decision boundary that perfectly separates the two datasets. The report should include a reasoned explanation of how the decision boundary was drawn based on the SVM.  
 
 
 ## Soft margin SVM (40%)
 ### Load Dataset
 Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
+
+
+`REPORT2`: Visualize the decision boundary of an SVM and analyze how slack variables allow misclassification. You can also adjust the hyperparameters to find best accuracy.
 
 ```python
 from sklearn import datasets
@@ -65,7 +69,6 @@ You can implement the soft margin SVM to predict the class with the input data.
 >>> print(acc)
 0.96 # for example
 ```
-`REPORT2`: Visualize the decision boundary of an SVM and analyze how slack variables allow misclassification. You can also adjust the hyperparameters to find best accuracy.
 
 ## Kernel Tricks (30%)
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
