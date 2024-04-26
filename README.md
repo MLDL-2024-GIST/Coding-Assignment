@@ -52,14 +52,14 @@ Re-visualize the decision boundary. This visualization should now reflect a stri
 
 ## Problem 3 (30%)
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
-Visualize the selected data in a scatter plot to understand the initial distribution. 
+Visualize the decision boundaries and support vectors of each kernel filters.
 
 `REPORT3`: You must include all the following problems in the report to receive a full grade
 
 ```python
 import sklearn
 
-dataset = sklearn.datasets.make_moons(n_samples = 300, noise = 0.3, random_state = 20) # you can change noise and random_state but noise >= 0.15
+dataset = sklearn.datasets.make_moons(n_samples = 300, noise = 0.3, random_state = 20) # you can change noise and random_state where noise >= 0.15
 X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size = 0.3, random_state = 100)
 ```
 
@@ -76,6 +76,8 @@ Visualize the decision boundaries and support vectors of SVM with different kern
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/a9eb4119-35a3-4407-8170-c739b072f48b" width="400" height="300" >
 </p>
 
+## Compare your implementation with `sklearn` library
+`REPORT3`: 
 ## Extra
 You can earn extra credit (3 points) for solving this question. 
 
