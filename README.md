@@ -63,7 +63,7 @@ You can implement the soft margin SVM to predict the class with the input data.
 >>> y_hat = model.predict(val_x)
 >>> acc = computeClassificationAcc(val_y, y_hat) 
 >>> print(acc)
-0.6
+0.6 # for example
 ```
 `REPORT2`: Visualize the decision boundary of an SVM and analyze how slack variables allow misclassification. You can also adjust the hyperparameter 'C' to find best accuracy.
 
