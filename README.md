@@ -49,7 +49,7 @@ y = iris.target[:100]
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
 Visualize the decision boundaries and support vectors of each kernel filters.
 
-`REPORT3`: You must include all the following problems in the report to receive a full grade
+### Load Dataset
 
 ```python
 import sklearn
@@ -62,17 +62,15 @@ X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/1562d39f-c48d-47c5-8407-b53e0714f9f5" width="400" height="300">
 </p>
 
-### (1) Implementing Various Kernel Filters and Comparing Each Other
-Apply various kernel filters to SVM and compare their performance.
+### Implement and Visualize
+`REPORT3`: Apply various kernel filters to SVM and compare their performance. Also, you have to visualize the decision boundaries and support vectors of SVM with different kernel filters. The report should indicate which kernel used in the SVM performed best, including reasons based on visualized data.
 
-### (2) Visualization the Decision Boundary and Support Vectors
-Visualize the decision boundaries and support vectors of SVM with different kernel filters. The report should indicate which kernel used in the SVM performed best, including reasons based on visualized data.
 <p>
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/97542056/a9eb4119-35a3-4407-8170-c739b072f48b" width="400" height="300" >
 </p>
 
 ## Compare your implementation with `sklearn` library
-`REPORT3`: 
+`REPORT4`: 
 ## Extra
 You can earn extra credit (3 points) for solving this question. 
 
