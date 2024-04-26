@@ -27,6 +27,14 @@ Files you will edit:
 ## Problem 1 (30%)
 The objective is to employ Support Vector Machines (SVM) to find and visualize a decision boundary that perfectly classifies parts of the Iris dataset. This problem is not only about applying SVM but also understanding how its parameters affect the model's performance, especially under scenarios requiring perfect separation.
 
+```python
+from sklearn import datasets
+
+iris = datasets.load_iris()
+X = iris.data[:100, :2]
+y = iris.target[:100] 
+```
+
 ### (1) Data Preparation and Visualization  
 Visualize the selected data in a scatter plot to understand the initial distribution. Highlight different classes using distinct colors and markers. This visualization will help you assess the feasibility of perfect separation with a linear boundary.   
 
