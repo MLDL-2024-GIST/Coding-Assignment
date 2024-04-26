@@ -51,7 +51,7 @@ Be sure to load and use the data in the following way (using a subset of IRIS da
 from sklearn import datasets
 
 iris = datasets.load_iris()
-X = iris.data[50:, 1:3]
+X = iris.data[50:, 2:]
 y = iris.target[50:] 
 ```
 ### Implement and Visualize 
@@ -63,9 +63,9 @@ You can implement the soft margin SVM to predict the class with the input data.
 >>> y_hat = model.predict(val_x)
 >>> acc = computeClassificationAcc(val_y, y_hat) 
 >>> print(acc)
-0.6 # for example
+0.96 # for example
 ```
-`REPORT2`: Visualize the decision boundary of an SVM and analyze how slack variables allow misclassification. You can also adjust the hyperparameter 'C' to find best accuracy.
+`REPORT2`: Visualize the decision boundary of an SVM and analyze how slack variables allow misclassification. You can also adjust the hyperparameters to find best accuracy.
 
 ## Kernel Tricks (30%)
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
