@@ -45,7 +45,15 @@ y = iris.target[:100]
 
 ## Soft margin SVM (40%)
 ### Load Dataset
+Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
 
+```python
+from sklearn import datasets
+
+iris = datasets.load_iris()
+X = iris.data[50:, 1:3]
+y = iris.target[50:] 
+```
 ### Implement and Visualize 
 `REPORT2`: 
 
@@ -79,4 +87,4 @@ X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
 ## Extra Credit (30%)
 You can earn extra credit for solving this question. 
 
-### Optimize Quadratic Problem(QP) other than Gradient Descent Algorithm without using any library
+### Optimize Quadratic Problem(QP) other than Gradient Descent Algorithm without using any library(except for cvxopt)
