@@ -55,7 +55,17 @@ X = iris.data[50:, 1:3]
 y = iris.target[50:] 
 ```
 ### Implement and Visualize 
-`REPORT2`: 
+You can implement the soft margin SVM to predict the class with the input data.
+```
+>>> from SVM_soft import *
+>>> model = SVM_soft(C=1.0) # set threshold value or 
+>>> mode.fit(tr_x, tr_y)
+>>> y_hat = model.predict(val_x)
+>>> acc = computeClassificationAcc(val_y, y_hat) 
+>>> print(acc)
+0.6
+```
+`REPORT2`: Visualize the decision boundary of an SVM and analyze how slack variables allow misclassification. You can also adjust the hyperparameter 'C' to find best accuracy.
 
 ## Kernel Tricks (30%)
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
