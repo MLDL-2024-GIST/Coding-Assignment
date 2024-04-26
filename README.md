@@ -71,6 +71,8 @@ You can implement the soft margin SVM to predict the class with the input data.
 Write a program in python that performs Kernel Trick for SVM. Run your own kernel functions on the given dataset.
 Visualize the decision boundaries and support vectors of each kernel filters.
 
+`REPORT3`: Apply various kernel filters to SVM and compare their performance. Also, you have to visualize the decision boundaries and support vectors of SVM with different kernel filters. The report should indicate which kernel used in the SVM performed best, including reasons based on visualized data.
+
 ### Load Dataset
 
 ```python
@@ -85,7 +87,6 @@ X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
 </p>
 
 ### Implement and Visualize
-`REPORT3`: Apply various kernel filters to SVM and compare their performance. Also, you have to visualize the decision boundaries and support vectors of SVM with different kernel filters. The report should indicate which kernel used in the SVM performed best, including reasons based on visualized data.
 
 You can implement the soft margin SVM to predict the class with the input data.
 ```
