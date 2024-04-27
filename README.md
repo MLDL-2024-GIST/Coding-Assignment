@@ -52,6 +52,9 @@ You can implement the soft margin SVM to predict the class with the input data.
 >>> print(acc)
 1.00 # for example
 ```
+<p>
+  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/ff8e240b-2118-4e04-a653-fca53eb1d9b0" width="400" height="300">
+</p>
 
 ## Soft margin SVM (40%)
 ### Load Dataset
