@@ -42,7 +42,7 @@ y = iris.target[:100]
 </p>
 
 ### Implement and Visualize 
-You can implement the soft margin SVM to predict the class with the input data.
+You can implement the Hard margin SVM to predict the class with the input data.
 ```
 >>> from SVM_hard import *
 >>> model = HSVM()
