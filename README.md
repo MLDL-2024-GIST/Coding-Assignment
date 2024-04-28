@@ -4,6 +4,11 @@
 
 This assignment focuses on understanding and applying the concepts of soft and hard margins, kernel tricks, and optimization methods in Support Vector Machines (SVM). By solving the given problems and compiling a report, you will demonstrate your grasp of these important machine learning techniques.  
 
+For questions about each question, please email
+Q1, Q4 : wonhyeok316@gm.gist.ac.kr
+Q2 : sk000514@gm.gist.ac.kr
+Q3 : as584868@gm.gist.ac.kr  
+  
 ## Deadline
 May 12, 2024 11:59PM KST (One day delay is permitted with linear scale score deduction. (20% per day))
 
