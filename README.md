@@ -56,6 +56,7 @@ You can implement the Hard margin SVM to predict the class with the input data.
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/ff8e240b-2118-4e04-a653-fca53eb1d9b0" width="400" height="300">
 </p>
 
+*Hint : The hinge loss can be used to find the optimal decision boundary using the gradient descent method.
 ## Soft margin SVM (40%)
 ### Load Dataset
 Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
