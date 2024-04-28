@@ -30,7 +30,7 @@ Files you will edit:
 ### Load Dataset
 Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
 
-`REPORT1`: Select an SVM from the visualized graph and use it to draw a decision boundary that perfectly separates the two datasets. The report should include a reasoned explanation of how the decision boundary was drawn based on the SVM.  
+`REPORT1`: Draw a decision boundary that perfectly separates the two datasets. Implement the process of finding the optimal decision boundary using hinge loss and gradient descent. **You should not use the SVM library provided by sklearn except when loading data.** The report should include a reasoned explanation of how the decision boundary was drawn.
 
 ```python
 from sklearn import datasets
