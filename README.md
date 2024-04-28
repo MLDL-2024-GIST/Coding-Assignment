@@ -40,7 +40,7 @@ X = iris.data[:100, :2]
 y = iris.target[:100] 
 ```
 <p>
-  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/026a92cf-81f6-4641-a54d-d11601ca73bf">
+  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/026a92cf-81f6-4641-a54d-d11601ca73bf" width="400" height="300">
 </p>
 
 ### Implement and Visualize 
@@ -55,7 +55,7 @@ You can implement the Hard margin SVM to predict the class with the input data. 
 1.00 # for example
 ```
 <p>
-  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/54b4fe1c-0558-4544-bdd3-ba7366c18507" width="400" height="300">
+  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/54b4fe1c-0558-4544-bdd3-ba7366c18507" width="600" height="300">
 </p>
 https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/54b4fe1c-0558-4544-bdd3-ba7366c18507
 *Hint : The hinge loss can be used to find the optimal decision boundary using the gradient descent method.
