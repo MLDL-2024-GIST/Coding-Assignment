@@ -44,12 +44,12 @@ y = iris.target[:100]
 </p>
 
 ### Implement and Visualize 
-You can implement the Hard margin SVM to predict the class with the input data.
+You can implement the Hard margin SVM to predict the class with the input data. In this case, it's okay to evaluate accuracy with train data.
 ```
 >>> from SVM_hard import *
 >>> model = HSVM()
 >>> model.fit(tr_x, tr_y)
->>> y_pred = model.predict(val_x)
+>>> y_pred = model.predict(tr_x)
 >>> acc = computeClassificationAcc(val_y, y_pred) 
 >>> print(acc)
 1.00 # for example
