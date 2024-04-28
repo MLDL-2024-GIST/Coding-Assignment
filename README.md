@@ -58,7 +58,7 @@ You can implement the Hard margin SVM to predict the class with the input data. 
   <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/54b4fe1c-0558-4544-bdd3-ba7366c18507" width="600" height="300">
 </p>
 
-*Hint : The hinge loss can be used to find the optimal decision boundary using the gradient descent method.  
+*Hint : The hinge loss can be used to find the optimal decision boundary using the gradient descent method. Compute LOSS for all data points to find the optimized weight and bias. The constant of hinge loss can be modified to determine the margin of the decision boundary 
 
 ```python
 def hinge_loss_gradient(X, y, weights, bias):
