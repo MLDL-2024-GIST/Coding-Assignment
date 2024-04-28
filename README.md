@@ -19,7 +19,10 @@ Files you will edit:
 * `SVM_soft.py` : You need to modify this file to implement SVM with soft margin.
 * `SVM_kernel.py` : You need to modify this file to implement kernels which will be used to soft margin.
 * `utils.py` : A bunch of utility functions!
-* `test.py` : A testing code! I will run this code to run your models. 
+* `test.py` : A testing code! I will run this code to run your models.
+
+**You should not use the SVM library provided by sklearn except when loading data.**
+
 
 ## What to submit
 
@@ -30,7 +33,7 @@ Files you will edit:
 ### Load Dataset
 Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
 
-`REPORT1`: Draw a decision boundary that perfectly separates the two datasets. Implement the process of finding the optimal decision boundary using hinge loss and gradient descent. **You should not use the SVM library provided by sklearn except when loading data.** The report should include a reasoned explanation of how the decision boundary was drawn.
+`REPORT1`: Draw a decision boundary that perfectly separates the two datasets. Implement the process of finding the optimal decision boundary using hinge loss and gradient descent. The report should include a reasoned explanation of how the decision boundary was drawn.
 
 ```python
 from sklearn import datasets
