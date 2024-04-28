@@ -40,7 +40,7 @@ X = iris.data[:100, :2]
 y = iris.target[:100] 
 ```
 <p>
-  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/026a92cf-81f6-4641-a54d-d11601ca73bf" width="400" height="300">
+  <img src = "https://github.com/MLDL-2024-GIST/Coding-Assignment/assets/79001832/026a92cf-81f6-4641-a54d-d11601ca73bf">
 </p>
 
 ### Implement and Visualize 
