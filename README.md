@@ -9,7 +9,7 @@ May 12, 2024 11:59PM KST (One day delay is permitted with linear scale score ded
 
 ### Submission checklist
 * Push your code to Git
-* Submit your report to LMS
+* Submit your report to LMS  
 **Both CODE and REPORT must be present for a specific question to count as a score**
 
 ## Files
