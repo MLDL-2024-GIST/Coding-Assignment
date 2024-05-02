@@ -1,6 +1,7 @@
 import numpy as np
 
-# you can modify util functions here what you need!
+# you can modify util functions here what you need
+# this python file will not be included in the grading
 
 def computeClassificationAcc():
   return None
