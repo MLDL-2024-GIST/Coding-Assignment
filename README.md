@@ -146,6 +146,6 @@ You can implement the soft margin SVM to predict the class with the input data.
 `REPORT4`: Compare your implementation with `sklearn` library with same hyper-parameters.
 
 ## Extra Credit (10%)
-You can earn extra credit for solving this question. 
-
-### Optimize Quadratic Problem(QP) other than Gradient Descent Algorithm without using any library(except for cvxopt)
+You can earn extra credit for solving this question.   
+   
+For the optimization methods in the three questions above, use a method other than the one you learned in class and describe which method you used and what the results were. You must also submit your code on Github.
