@@ -59,7 +59,7 @@ You can implement the Hard margin SVM to predict the class with the input data. 
 >>> model = HSVM()
 >>> model.fit(tr_x, tr_y)
 >>> y_pred = model.predict(tr_x)
->>> acc = computeClassificationAcc(val_y, y_pred) 
+>>> acc = computeClassificationAcc(tr_y, y_pred) 
 >>> print(acc)
 1.00 # for example
 ```
