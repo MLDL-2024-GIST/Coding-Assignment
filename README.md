@@ -10,7 +10,7 @@ Soft margin SVM : sk000514@gm.gist.ac.kr
 Kernel Tricks : as584868@gm.gist.ac.kr    
   
 ## Deadline
-May 24, 2024 11:59PM KST (One day delay is permitted with linear scale score deduction. (20% per day))
+May 26, 2024 11:59PM KST (One day delay is permitted with linear scale score deduction. (20% per day))
 
 ### Submission checklist
 * Push your code to Git
