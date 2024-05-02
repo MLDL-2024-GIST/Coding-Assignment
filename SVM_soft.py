@@ -4,6 +4,8 @@ from numpy import random
 iris=datasets.load_iris()
 x=iris.data[50:,[2,3]]
 y=iris.target[50:]
+"""
+Using below code.
 class SSVM:
     def __init__(self,  ):
         pass
@@ -14,4 +16,4 @@ class SSVM:
 
 def computeClassificationAcc(gt_y,pred_y):
     pass
-
+"""
