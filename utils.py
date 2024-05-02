@@ -1,6 +1,7 @@
 import numpy as np
 
-# you can 
+# you can modify util functions here what you need!
+
 def computeClassificationAcc():
   return None
   
