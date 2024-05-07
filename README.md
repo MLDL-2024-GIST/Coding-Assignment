@@ -74,7 +74,7 @@ def hinge_loss_gradient(X, y, weights, bias):
     """Your code"""
     return dw, db
 
-def train_svm(X, y, learning_rate=0.001, epochs=1000):
+def train_svm(X, y, learning_rate, epochs):
     """Your code"""
     return weights, bias
 ```
