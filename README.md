@@ -84,7 +84,7 @@ def train_svm(X, y, learning_rate=0.001, epochs=1000):
 Be sure to load and use the data in the following way (using a subset of IRIS data for completely isolated data). We only use 2 features of data.
 
 
-`REPORT2`: Find a decision boundary of two classes by solving dual problem. Compare results with solution of primal problem and analyze difference of two solutions. Visualize the decision boundary of an SVM and analyze how slack variables allow misclassification. You can also adjust the hyperparameters to find best accuracy.
+`REPORT2`: Find a decision boundary of two classes by solving dual problem. Also, find a decision boundary of two classes by solving primal problem. Compare two solutions of each problem and analyze differences. Visualize the decision boundary of an SVM and analyze how slack variables allow misclassification. You can also adjust the hyperparameters to find best accuracy.
 
 ```python
 from sklearn import datasets
